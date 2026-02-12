@@ -11,7 +11,7 @@ import SwiftUI
 struct MapBoxIntegrationApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            RasterParticleExample()
         }
     }
 }
