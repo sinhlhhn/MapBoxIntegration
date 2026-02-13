@@ -1,0 +1,83 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": { "type": "departure", "name": "Manila", "icao": "RPLL" },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [121.019581, 14.508647]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": { "type": "destination", "name": "Kitakyushu", "icao": "RJCK" },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [131.034689, 33.845942]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": { "type": "route_line", "flight": "5J-812" },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [121.019581, 14.508647],
+                    [131.034689, 33.845942]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": { "type": "flight_path", "flight": "5J-812" },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [121.019581, 14.508647],
+                    [121.0833, 14.6833],
+                    [120.8500, 15.2167],
+                    [120.5833, 15.9500],
+                    [120.2667, 16.9000],
+                    [119.8333, 18.0833],
+                    [120.5000, 19.5000],
+                    [121.3333, 20.8333],
+                    [122.1667, 22.1667],
+                    [123.0000, 23.5000],
+                    [124.0000, 25.0000],
+                    [125.1667, 26.5000],
+                    [126.1667, 27.8333],
+                    [127.0833, 29.0000],
+                    [128.0000, 30.1667],
+                    [128.8333, 31.2500],
+                    [129.5000, 32.3333],
+                    [130.0000, 33.1667],
+                    [130.5000, 33.8333],
+                    [130.8333, 34.2500],
+                    [131.034689, 33.845942]
+                ]
+            }
+        },
+        
+        { "type": "Feature", "properties": { "type": "waypoint", "name": "ANDAT", "seq": 1 }, "geometry": { "type": "Point", "coordinates": [121.0833, 14.6833] } },
+        { "type": "Feature", "properties": { "type": "waypoint", "name": "APASI", "seq": 2 }, "geometry": { "type": "Point", "coordinates": [120.8500, 15.2167] } },
+        { "type": "Feature", "properties": { "type": "waypoint", "name": "DOBAN", "seq": 3 }, "geometry": { "type": "Point", "coordinates": [120.5833, 15.9500] } },
+        { "type": "Feature", "properties": { "type": "waypoint", "name": "IGARI", "seq": 4 }, "geometry": { "type": "Point", "coordinates": [120.2667, 16.9000] } },
+        { "type": "Feature", "properties": { "type": "waypoint", "name": "LUMBA", "seq": 5 }, "geometry": { "type": "Point", "coordinates": [119.8333, 18.0833] } },
+        { "type": "Feature", "properties": { "type": "waypoint", "name": "PANDA", "seq": 6 }, "geometry": { "type": "Point", "coordinates": [120.5000, 19.5000] } },
+        { "type": "Feature", "properties": { "type": "waypoint", "name": "ELGAR", "seq": 7 }, "geometry": { "type": "Point", "coordinates": [121.3333, 20.8333] } },
+        { "type": "Feature", "properties": { "type": "waypoint", "name": "POTIB", "seq": 8 }, "geometry": { "type": "Point", "coordinates": [122.1667, 22.1667] } },
+        { "type": "Feature", "properties": { "type": "waypoint", "name": "MOLKA", "seq": 9 }, "geometry": { "type": "Point", "coordinates": [123.0000, 23.5000] } },
+        { "type": "Feature", "properties": { "type": "waypoint", "name": "AKARA", "seq": 10 }, "geometry": { "type": "Point", "coordinates": [124.0000, 25.0000] } },
+        { "type": "Feature", "properties": { "type": "waypoint", "name": "SADLI", "seq": 11 }, "geometry": { "type": "Point", "coordinates": [125.1667, 26.5000] } },
+        { "type": "Feature", "properties": { "type": "waypoint", "name": "NOGAL", "seq": 12 }, "geometry": { "type": "Point", "coordinates": [126.1667, 27.8333] } },
+        { "type": "Feature", "properties": { "type": "waypoint", "name": "LAMEN", "seq": 13 }, "geometry": { "type": "Point", "coordinates": [127.0833, 29.0000] } },
+        { "type": "Feature", "properties": { "type": "waypoint", "name": "TEMIS", "seq": 14 }, "geometry": { "type": "Point", "coordinates": [128.0000, 30.1667] } },
+        { "type": "Feature", "properties": { "type": "waypoint", "name": "ONIKU", "seq": 15 }, "geometry": { "type": "Point", "coordinates": [128.8333, 31.2500] } },
+        { "type": "Feature", "properties": { "type": "waypoint", "name": "GOBUN", "seq": 16 }, "geometry": { "type": "Point", "coordinates": [129.5000, 32.3333] } },
+        { "type": "Feature", "properties": { "type": "waypoint", "name": "NANPU", "seq": 17 }, "geometry": { "type": "Point", "coordinates": [130.0000, 33.1667] } },
+        { "type": "Feature", "properties": { "type": "waypoint", "name": "KALDO", "seq": 18 }, "geometry": { "type": "Point", "coordinates": [130.5000, 33.8333] } },
+        { "type": "Feature", "properties": { "type": "waypoint", "name": "MUSEL", "seq": 19 }, "geometry": { "type": "Point", "coordinates": [130.8333, 34.2500] } }
+        
+    ]
+}
